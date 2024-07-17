@@ -60,8 +60,10 @@ public class LoginController {
 	
 	@PostMapping("register-user")
 	public String registerUser(ModelMap model,@Valid Login login) {
+		System.out.println(login);
 		loginService.registerUser(login);
 		model.put("login", login);
+		model.put("username", login.getUsername());
 		return "redirect:welcome-nice";
 	}
 	

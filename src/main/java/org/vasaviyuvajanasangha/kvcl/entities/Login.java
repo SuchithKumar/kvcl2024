@@ -26,7 +26,6 @@ public class Login {
 	@Size(min = 8)
 	private String password;
 
-	@NotNull
 	private String type;
 	
 	@OneToOne

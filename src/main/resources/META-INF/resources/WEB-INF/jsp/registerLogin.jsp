@@ -15,7 +15,7 @@
 				<form:input className="form-control" type="hidden" path="type"></form:input>
 				<form:input className="form-control" type="hidden" path="team"></form:input>
 			<div class="center">
-				<input class="btn btn-primary" type="submit" value="Register" />
+				<input class="btn btn-primary like" type="submit" value="Register" />
 			</div>
 	</form:form>
 </div>

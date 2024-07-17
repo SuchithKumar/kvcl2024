@@ -26,6 +26,7 @@ public class LoginServiceImpl implements LoginService {
 
 	@Override
 	public Login registerUser(Login login) {
+		System.out.println(login);
 		return loginRepository.save(login);
 	}
 
