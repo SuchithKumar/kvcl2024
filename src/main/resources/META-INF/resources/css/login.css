@@ -1,0 +1,28 @@
+.container-login{
+	width: 50%;
+	margin: auto;
+}
+
+.cust-login-register{
+	color: #3b71ca;
+}
+
+
+.cust-label-form-group{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	width: 100%;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .cust-label-form-group{
+	width: 100%;
+  }
+  
+  .container-login{
+	padding: 5%;
+  	width: 100%;
+  }
+}
