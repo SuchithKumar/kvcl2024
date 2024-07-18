@@ -3,10 +3,10 @@
 	<script src="webjars/font-awesome/6.4.2/js/fontawesome.min.js"></script>
 	
 	<br>
-	<footer class="bg-body-tertiary text-center text-lg-start">
+	<footer class="bg-body-tertiary text-center text-lg-start cust-footer-container">
 	  <!-- Copyright -->
 	  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-	    © 2024 Copyright:
+	   2024 Copyright:
 	    <a class="text-body" href="https://localhost:8080/">Karnataka Arya Vysya Vasavi Yuvajana Sandha</a>
 	  </div>
 	  <!-- Copyright -->

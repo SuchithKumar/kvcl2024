@@ -16,7 +16,7 @@
 			                alt="Avatar" class="img-fluid my-5" style="width: 80px;" />
 			              <h5 style="color: black">${team.name}</h5>
 			              <h6 style="color: black">Captain : ${team.captain}</h6>
-			              <p> update preference <a href="update-team" class="fa fa-edit mb-5"></a></p>
+			              <p> update preferences <a href="update-team" class="fa fa-edit mb-5"></a></p>
 			            </div>
 			            <div class="col-md-8">
 			              <div class="card-body p-4">
